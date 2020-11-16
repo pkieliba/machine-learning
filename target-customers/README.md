@@ -16,19 +16,19 @@ Here, we will be using data provided by *Udacity* as part of their *Data Scienti
 
 Our goal is to maximize the **profit of the campaign**:
 
-$profit = \sum \limits _{i=1} ^{N} 10*purchase_{i}(decision_{i}) - 0.15*decision_{i}$,
+<img src="https://render.githubusercontent.com/render/math?math=profit = \sum_{i=1}^{N} 10*purchase_{i}(decision_{i}) - 0.15*decision_{i}">,
 
 where *purchase* is a purchasing decision of an individual client influenced by the *decision* - a binary indicator of whether that person has been targeted or not.
 
 To account for the fact that some customers buy the product even if not targeted, we should also look at the **net incremental profit**, defined as:
 
-$NIR = profit-10*nControlPurchase$,
+<img src="https://render.githubusercontent.com/render/math?math=NIR = profit - 10*nControlPurchase">,
 
 where *nControlPurchase* is the number of people, who were not targeted and bought the service.
 
 Furthermore, Starbucks asked their job candidates to also optimize the **incremental response rate**, defined as:
 
-$IIR = \frac{nTreatPurchase}{nTreat} - \frac{nControlPurchase}{nControl}$, 
+<img src="https://render.githubusercontent.com/render/math?math=IIR = \frac{nTreatPurchase}{nTreat} - \frac{nControlPurchase}{nControl}">,
 
 where *nTreatPurchase* is the number of people, who were not targeted and bought the service; and *nTreat* and *nControl* are the number of targeted and non-targeted customers respectively.
 
