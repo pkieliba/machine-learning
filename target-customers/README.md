@@ -45,9 +45,10 @@ The problem of deciding whether it is profitable to target a particular customer
 
 Here, i am comparing both of those perspectives and using a total of four different approaches to choose which customers to target:
 
+0. [Exploratory data analysis](./0.EDA.ipynb)
 1. [Traditional predictive model](./1.Classical-predictive-models.ipynb) 
 2. [S-learner model (one-model "uplift classifier")](./2.S-learner.ipynb) 
-3. T-learner model (two-models "uplift classifier")
+3. [T-learner model (two-models "uplift classifier")](./3.T-learner.ipynb) 
 4. Direct uplift modeling
 
 
