@@ -49,6 +49,6 @@ Here, i am comparing both of those perspectives and using a total of four differ
 1. [Traditional predictive model](./1.Classical-predictive-models.ipynb) 
 2. [S-learner model (one-model "uplift classifier")](./2.S-learner.ipynb) 
 3. [T-learner model (two-models "uplift classifier")](./3.T-learner.ipynb) 
-4. Direct uplift modeling
+4. [Direct uplift modeling](./4.Direct-uplift.ipynb)
 
 
